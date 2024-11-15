@@ -1,0 +1,121 @@
+install dotenv jwt et ccookieParser
+creer 2 cree secret acces token secret et refresh token
+
+
+
+une fois que le password a ete check et match dans le authController :
+
+
+---------------------------------------------------------
+
+-creer 2 const de token Acces token et refresh token avec jwt.sign(
+
+)
+les tokens prennent 3 argumnents : payload, cle secrete et option
+
+const payload = {
+  userId: 123,
+  role: 'admin',
+  name: 'John Doe'
+};
+
+
+const options = {
+  expiresIn: '1h',
+  //issuer: 'my-app',
+  //audience: 'my-audience'
+};
+
+const token = jwt.sign(payload, secretOrPrivateKey, [options, callback])
+const token = jwt.sign(payload, secretOrPrivateKey, options)
+
+
+
+
+---------------------------------------------------------
+
+filter la db pour retirer le current user
+add le refresh token au curent user
+write la db avec les 2 avec fspromise pour permettre de stocker le refresh token pour l'invalider manuellement et le check
+
+---------------------------------------------------------
+
+res.cookie('name", token, options}
+options {httponly true, maxAge en seconde}
+send l'acces token res.json({accesToken})
+
+---------------------------------------------------------
+---------------------------------------------------------
+
+creer un middleware verifyJWT
+creer une const authHeader qui check la partie authorization de req.header (renvoi le bearer token Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...)
+recuperer le token avec authHeader.split(' ')[1] pour garder la partie droite du authorization
+
+verifier avec jwt.verify(
+token,
+accestokensecret,
+[options, callback])
+
+soit un try catch
+
+try {
+  const decoded = jwt.verify(token, secret, options);
+  console.log('Payload décodé :', decoded);
+} catch (err) {
+  console.error('Erreur lors de la vérification du token :', err.message);
+}
+
+ou (err,decoded) => {
+if (err) return res.sendStatus(403)
+req.user = decoded.username
+next()
+}
+
+---------------------------------------------------------
+
+creer la route dans server pour verifier l'acces token
+faire des test avec une auth valide, recuperer le token en response
+faire des get avec ce token dans header bearer
+
+---------------------------------------------------------
+---------------------------------------------------------
+
+creer un nouveau controller pour le refresh token et copy pasta le auth controler
+
+pas besoin de pwd
+on check le cookie : const cookies = req.cookies
+
+if !(cookie?.jwt) return status 401 unothorized
+
+check le user.refresh token dans la db
+is !foundUser 403 forbidden
+
+jwt.,verify(refreshtoken)
+if (err || foundUser.username !== decoded.username) 403 forbidden
+creer un nouveau accesToken et l'envoyer en res.json
+
+---------------------------------------------------------
+creer la route dans le serveur / routes (refresh.ts) pour use le controller
+
+---------------------------------------------------------
+l'idee est de creer une route refresh non protege qui ne verifie que le token, sans next
+lorsqu'un appel api est fait et que l'acces token est pas dispo, le back renvoi un 401 unothorized
+dans ce cas, il y a un intercepteur qui appel la route du refresh token, puis relance l'appel une seconde fois.
+if (error.response.status === 401 && !originalRequest._retry) {
+      originalRequest._retry = true; // Évite une boucle infinie
+
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------
+---------------------------------------------------------

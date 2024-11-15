@@ -1,0 +1,58 @@
+2024-11-06 18:57:02	b45ee730-2dc9-4148-b4e4-fede853b0188	Page not found: /awd
+2024-11-06 18:57:42	3e058f64-a533-49ca-9b52-0786bba52024	Page not found: /awd
+2024-11-06 18:57:43	9170fb13-4aa5-4dfe-bf2f-9d6ad60400f2	Page not found: /awd
+2024-11-06 23:18:34	50cc45f7-a674-4dd0-b0d9-b3b515ceb0d2	Page not found: /favicon.ico
+2024-11-06 23:23:58	396f3f70-097a-4bb5-809d-7b5a9ab69374	Page not found: /chain
+2024-11-07 11:52:54	da4c4571-6251-41aa-a3ce-dc6b8293bf11	Page not found: /favicon.ico
+2024-11-07 14:43:31	516d1cfa-4f98-4d90-ad53-fdcb2f9c0238	Error handling request: Not allowed by CORS
+2024-11-07 14:43:31	00633db1-9e2a-4720-aae6-3cfd0878e160	Error handling request: Not allowed by CORS
+2024-11-07 14:44:41	5f3f44de-3d1d-48a7-949c-21701fdbf040	Error handling request: Not allowed by CORS
+2024-11-07 14:45:09	32f3ba31-b504-43a0-bfe5-8b86e0046d0c	Error handling request: Not allowed by CORS
+2024-11-07 14:45:41	8bc3421f-f9c9-41f3-bea2-0f56bd462279	Error handling request: Not allowed by CORS
+2024-11-07 14:45:47	b21bf76e-30ac-49b9-9bf5-26afda25bfdc	Error handling request: Not allowed by CORS
+2024-11-07 14:45:56	748f38fa-b200-4c68-9f38-e02253758a68	Error handling request: Not allowed by CORS
+2024-11-07 14:49:33	0b75900a-06e6-4278-ad95-3c33aaf4265f	Error handling request: Not allowed by CORS
+2024-11-07 14:51:14	0153bd22-5dd6-4cd8-9645-204e5fd607f6	Error handling request: Not allowed by CORS
+2024-11-07 14:51:16	d04fcd36-3475-4c90-84dc-7b8c608d34e2	Error handling request: Not allowed by CORS
+2024-11-07 14:52:37	1567542f-0599-4bb4-8e12-79e7ea0f6723	Error handling request: Not allowed by CORS
+2024-11-07 14:52:44	26d41506-6e59-44f3-b85a-a187c82d128c	Error handling request: Not allowed by CORS
+2024-11-07 18:52:41	0a119ac3-eb6f-4b3f-8a4b-bdcdeb7e77ec	Error handling request: Not allowed by CORS
+2024-11-07 18:52:43	2ad135a9-2866-4ea0-8f98-95c47b126855	Error handling request: Not allowed by CORS
+2024-11-07 18:52:43	8d4378c5-f734-430f-89f3-c1e684202b53	Error handling request: Not allowed by CORS
+2024-11-07 18:52:43	733f28e7-132a-4ecd-9684-3600eb47c946	Error handling request: Not allowed by CORS
+2024-11-08 10:26:07	7b91577a-7cec-463e-a75e-f27e4799d0d3	Error handling request: Not allowed by CORS
+2024-11-08 10:26:07	70980ec0-794a-4b35-9b00-fd199a1f0357	Error handling request: Not allowed by CORS
+2024-11-08 10:26:27	edde1c8d-e150-45c3-b4f8-d6d0b61ba4ad	Page not found: /favicon.ico
+2024-11-08 10:26:52	5d77ce98-80ec-472d-b729-c25493dae66a	Page not found: /subdir/abouta
+2024-11-08 10:28:22	7dd88e24-97c0-4832-a3a5-7db4af3f779a	Error handling request: ENOENT: no such file or directory, stat 'C:\Users\klein\Desktop\Code\Dave Grey\This is NodeJS\02-eventEmit\src\routes\views\index.html'
+2024-11-08 11:17:34	46554f7f-4dd8-4d62-92cc-5494877c6dae	Error handling request: Unexpected token '"', ""\"id\":1"" is not valid JSON
+2024-11-08 11:17:35	6c419c23-7547-42f7-a5e8-6615953a0028	Error handling request: Unexpected token '"', ""\"id\":1"" is not valid JSON
+2024-11-10 18:11:59	8a031886-f646-4969-96c9-5ad585cfb547	Error handling request: Unexpected token '"', ""{\r\n\"na"... is not valid JSON
+2024-11-10 18:12:21	0180b58f-8e56-4dd8-b663-a164486292b4	Error handling request: Unexpected token '"', ""\r\n\"nam"... is not valid JSON
+2024-11-10 18:12:58	534973ac-870b-44c5-8cbc-72c970cc0c8c	Page not found: /user
+2024-11-10 18:13:04	d1113cab-93fc-4291-8c81-1e0487428d74	Page not found: /user
+2024-11-10 18:13:16	0954d88e-2504-4892-a543-034a9e471c64	Page not found: /user
+2024-11-10 18:13:24	d47d6ec7-710b-43bd-a396-f4b0f8abaee9	Page not found: /user
+2024-11-10 18:13:53	2396d31c-9f7d-4c6c-8903-a9af893f7b95	Page not found: /user
+2024-11-10 18:17:04	24b8c33b-09ac-4257-bf11-4b8ebd27fce1	Error handling request: Unexpected token '"', ""{\r\n    "... is not valid JSON
+2024-11-10 18:17:09	f6926ea6-f9dd-44e3-a28d-a3c234227777	Error handling request: Unexpected token '"', ""{\r\n    "... is not valid JSON
+2024-11-10 18:20:15	d96cb181-e228-4094-b992-f312325f7a66	Error handling request: Unexpected token '"', ""{\r\n    "... is not valid JSON
+2024-11-10 18:20:45	86b018c1-3792-46da-bb44-7a100164f925	Error handling request: Unexpected token '"', ""{\r\n    "... is not valid JSON
+2024-11-10 18:20:48	aa1679ef-864b-4c45-8607-b7234401d71e	Error handling request: Unexpected token '"', ""{\r\n    "... is not valid JSON
+2024-11-10 18:20:52	02e25888-0c5d-46fd-aef3-5860d71b8a6b	Error handling request: Unexpected token '"', ""{\r\n    "... is not valid JSON
+2024-11-10 18:20:59	e5a33fcc-8c9b-433c-adcc-ba0a0e26960c	Error handling request: Unexpected token '"', ""{\r\n    "... is not valid JSON
+2024-11-10 18:21:15	c83d68fe-417d-4416-aa98-3b0677ee35d6	Error handling request: Unexpected token '"', ""{\r\n    "... is not valid JSON
+2024-11-10 18:26:42	f8b38973-ca89-41e5-bc24-6e4d16356de8	Page not found: /user
+2024-11-10 21:39:16	82651e15-6cbf-4eec-9f0d-de30232db8ea	Page not found: /login
+2024-11-10 21:54:48	0004295f-1400-4af4-aa59-9fbcd0e6d6cb	Error handling request: Unexpected token '"', ""{\r\n    "... is not valid JSON
+2024-11-10 22:05:59	32cb3b11-d155-4dbe-95bc-01f98f6a9975	Error handling request: Unexpected token '"', ""{\r\n    "... is not valid JSON
+2024-11-12 14:42:26	4f78d18a-60d3-45d8-ac25-a3093c2cb469	Error handling request: Unexpected token '"', "
+    "password""... is not valid JSON
+2024-11-14 21:34:01	ec35352c-fa34-46f4-90f4-f82799e4f920	Error handling request: _a.includes is not a function
+2024-11-14 21:40:39	2bbdcbc3-8a1c-43cb-af74-83444280f46e	Error handling request: _a.includes is not a function
+2024-11-14 21:43:05	c9727a20-1a4e-4a23-8f30-0b69afcf507b	Error handling request: _a.includes is not a function
+2024-11-14 21:43:50	22b347ea-30ff-45fc-9bbe-0477388de5dd	Error handling request: _a.includes is not a function
+2024-11-14 21:43:58	bd0ddf90-7cdf-4844-a3a0-b36f7f0dd6d8	Error handling request: _a.includes is not a function
+2024-11-14 21:44:23	a9bbd4de-78d4-4d77-aed0-e87101bddd35	Error handling request: _a.includes is not a function
+2024-11-14 21:48:19	32c2fd69-da99-4642-9fad-3086d5317244	Error handling request: _a.includes is not a function
+2024-11-14 21:48:36	7623ec79-4f07-4399-9c53-41f5c6ee1434	Error handling request: _a.includes is not a function

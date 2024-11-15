@@ -1,0 +1,173 @@
+[
+  {
+    "id": "f33ac6dd-2a37-4d27-b007-eff8de8d54f6",
+    "username": "4",
+    "email": "4@gmail.com",
+    "roles": {
+      "USER": 1
+    },
+    "password": "$2b$10$OUHBf86JG6n6RoArlziKDOA4KHtskLZQguLbt0lG81.7akEYhbye6"
+  },
+  {
+    "id": "a768bb6b-f789-4c5e-8bad-eee7ec0964b8",
+    "username": "5",
+    "email": "5@gmail.com",
+    "roles": {
+      "USER": 1
+    },
+    "password": "$2b$10$iN3doEWA1FVmvk2usA/FWO2rfBggrEDke69Cn/RV0Lr0Iid451crS"
+  },
+  {
+    "id": "4db8f177-8a60-4e78-82c5-8e67abd31276",
+    "username": "6",
+    "email": "6@gmail.com",
+    "roles": {
+      "USER": 1
+    },
+    "password": "$2b$10$4rXWJMpB57Otw8tay7uB0evsJODXkcYG/FUYEHelZNQrtT0YnLGEC"
+  },
+  {
+    "id": "3",
+    "username": "3",
+    "roles": {
+      "USER": 1,
+      "EDITOR": 2,
+      "ADMIN": 3
+    },
+    "email": "3@gmail.com",
+    "password": "$2b$10$Vc1fi1B1adUALbAu5XrhieSwAqu2BsUktqKggeXkl3UhUn0ECkUUq"
+  },
+  {
+    "id": "1",
+    "username": "1",
+    "email": "1@gmail.com",
+    "roles": {
+      "USER": 1
+    },
+    "password": "$2b$10$OpCmKQ82tCcmvT4ZvyQ3se2XyTvgvvG3/SnWgI.cHYI.jROEptT72",
+    "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEiLCJpYXQiOjE3MzE1MTExNTYsImV4cCI6MTczMjExNTk1Nn0.PiipFnLmdGG1Dm3vMTT2zx_8uY6KXMrq40DqUZnBHiU"
+  },
+  {
+    "$__": {
+      "activePaths": {
+        "paths": {
+          "password": "init",
+          "email": "init",
+          "username": "init",
+          "role.USER": "init",
+          "_id": "init",
+          "__v": "init",
+          "refreshToken": "init"
+        },
+        "states": {
+          "require": {},
+          "default": {},
+          "init": {
+            "_id": true,
+            "username": true,
+            "email": true,
+            "password": true,
+            "role.USER": true,
+            "__v": true,
+            "refreshToken": true
+          }
+        }
+      },
+      "skipId": true
+    },
+    "$isNew": false,
+    "_doc": {
+      "role": {
+        "USER": 1
+      },
+      "_id": "673613aac1adf900e1263490",
+      "username": "1",
+      "email": "1@gmail.com",
+      "password": "$2b$10$wZLZeXXYbJGfOIs/.N4R6uFpMPOBJorWe5Rn0NKwU/yJbEKTKyGRW",
+      "__v": 0,
+      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEiLCJpYXQiOjE3MzE1OTg2NTEsImV4cCI6MTczMjIwMzQ1MX0.GTmXHKT269-s1ePA1KMxT4Ph4RV11Jd0x_k80yyOx_4"
+    }
+  },
+  {
+    "$__": {
+      "activePaths": {
+        "paths": {
+          "password": "init",
+          "email": "init",
+          "username": "init",
+          "role.USER": "init",
+          "_id": "init",
+          "__v": "init",
+          "refreshToken": "init"
+        },
+        "states": {
+          "require": {},
+          "default": {},
+          "init": {
+            "_id": true,
+            "username": true,
+            "email": true,
+            "password": true,
+            "role.USER": true,
+            "__v": true,
+            "refreshToken": true
+          }
+        }
+      },
+      "skipId": true
+    },
+    "$isNew": false,
+    "_doc": {
+      "role": {
+        "USER": 1
+      },
+      "_id": "673613aac1adf900e1263490",
+      "username": "1",
+      "email": "1@gmail.com",
+      "password": "$2b$10$wZLZeXXYbJGfOIs/.N4R6uFpMPOBJorWe5Rn0NKwU/yJbEKTKyGRW",
+      "__v": 0,
+      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjEiLCJpYXQiOjE3MzE1OTg2OTcsImV4cCI6MTczMjIwMzQ5N30.UxRuC3vZwOr_VQ9C4NExs6aUztYNo8L6dOeNOt-e-Ik"
+    }
+  },
+  {
+    "$__": {
+      "activePaths": {
+        "paths": {
+          "password": "init",
+          "email": "init",
+          "username": "init",
+          "role.USER": "init",
+          "_id": "init",
+          "__v": "init",
+          "refreshToken": "init"
+        },
+        "states": {
+          "require": {},
+          "default": {},
+          "init": {
+            "_id": true,
+            "username": true,
+            "email": true,
+            "password": true,
+            "role.USER": true,
+            "__v": true,
+            "refreshToken": true
+          }
+        }
+      },
+      "skipId": true
+    },
+    "$isNew": false,
+    "_doc": {
+      "role": {
+        "USER": 1
+      },
+      "_id": "673635130a0f7ec9bbc2eb09",
+      "username": "2",
+      "email": "2@gmail.com",
+      "password": "$2b$10$HG2wM.KHqZPxWk9/oBeymevEV0WPBwyBKQjkfjZrVduPcm8WjTbha",
+      "__v": 0,
+      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjIiLCJpYXQiOjE3MzE2MDU3OTUsImV4cCI6MTczMjIxMDU5NX0._WI-X7kSgQUbjJxpL6nT8h1auJVCi7-yqkOGZffmg4U"
+    }
+  }
+]
